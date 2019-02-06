@@ -1,0 +1,59 @@
+.navbar{
+   
+    width: 100%;
+    height: 5em ;
+    margin-bottom: ;
+    margin-top: ;
+    background-color: rgb(248, 249, 250);
+    position:fixed;
+    font-family:"candara";
+    padding-bottom: 20px;
+
+}
+a{
+    font-family:"candara";
+    text-decoration: none;
+    font-size: 1.3em;
+}
+.logo{
+    max-resolution: top 5px; ;
+    max-resolution: left 1%; ;
+    max-resolution: right 4%; ;
+    width: 12em;
+    float: left;
+   
+
+}
+.botao{
+
+    font: size 1.3em; ;
+    font-family: "candara";
+    margin:1.2em  ;
+    float: left;;
+    margin-bottom: 0%;
+    text-decoration: none;
+    color: rgb(124, 124, 125)
+
+}
+.banner{
+    border: ;
+    width: ;
+    height: ;
+    margin: ;
+    color: rgb(124, 124, 125);
+    font-family:"candara"; 
+}
+.textoinicial{}
+
+
+
+body{
+    margin: 0px;
+}
+
+li{
+    list-style-type: none;
+    float: unset;
+
+}
+
