@@ -23,9 +23,7 @@ a{
     float: left;
 }
 linksdanavbar:last-child{
-    border: solid red;
-
-
+     
 }
 .botao{
     font-size: 1.3em;
@@ -44,7 +42,24 @@ linksdanavbar:last-child{
     color: rgb(124, 124, 125);
     font-family:"candara"; 
 }
-.textoinicial{}
+.textoinicial{
+    font-family:"candara";
+    color: rgb(74, 74, 75);
+}
+.titulo{
+font-size:1.9em;
+font-family:"Candara";
+font-weight: lighter;
+margin: 3%;
+text-align: center;
+}
+.textoinicial{
+    font-size: 1.1em;
+    font-family: "Candara";
+    font-weight: lighter;
+    margin: 3%;
+    text-align: center;
+}
 
 
 
