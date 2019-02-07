@@ -23,6 +23,7 @@ a{
     float: left;
 }
 linksdanavbar:last-child{
+    border: solid rebeccapurple;
      
 }
 .botao{
@@ -47,11 +48,11 @@ linksdanavbar:last-child{
     color: rgb(74, 74, 75);
 }
 .titulo{
-font-size:1.9em;
-font-family:"Candara";
-font-weight: lighter;
-margin: 3%;
-text-align: center;
+    font-size:1.9em;
+    font-family:"Candara";
+    font-weight: lighter;
+    margin: 3%;
+    text-align: center;
 }
 .textoinicial{
     font-size: 1.1em;
@@ -60,6 +61,46 @@ text-align: center;
     margin: 3%;
     text-align: center;
 }
+.cardsdeservico{
+    width:100% ;
+    height:400px ;
+    background-color:#ffffff ;
+    padding-left:1em;
+}
+.primeirocard{
+    border-style: ;
+    border-width: ;
+    border-color: ;
+    box 
+
+
+
+}
+.segundocard{}
+.terceirocard{}
+
+.titulodocard{
+    font-size: 4em;
+    font-family:"Candara";
+    font-weight: lighter;
+    text-align: center;
+    color: #4a4a4b;
+    
+}
+.textodocard{
+    font-size: 2.05em;
+    font-family: "Candara";
+    font-weight: lighter;
+    text-align: center;
+    margin: 1.2em;
+    color: #4a4a4b;
+
+
+
+
+
+}
+
 
 
 
