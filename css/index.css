@@ -67,19 +67,35 @@ linksdanavbar:last-child{
     width:100% ;
     height:400px ;
     background-color:#ffffff ;
-    padding-left:1em;
+    /*padding-left:1em;*/
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content:space-around;
+    /*align-items: center;*/
+    
+    
 }
-.primeirocard{
-    border-style: ;
-    border-width: ;
-    border-color: ;
-    box 
-
-
-
+.cardsdeservico:hover{
+    background-color: black;
 }
-.segundocard{}
-.terceirocard{}
+.card{
+    
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 1px 5px 8px #4a4a4b;
+    border-color:#7c7c7d ;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 0.5em;
+    float: left;
+    margin: 1.9%;
+   /* border: solid #5dd9c0;*/
+}
+.card:hover{
+
+    box-shadow: 5px 10px 20px #4a4a4b;
+}
 
 .titulodocard{
     font-size: 4em;
@@ -88,6 +104,11 @@ linksdanavbar:last-child{
     text-align: center;
     color: #4a4a4b;
     
+}
+.titulodocard:hover{
+
+    color: #5dd9c0;
+    text-shadow: 1px 1px #4a4a4b;
 }
 .textodocard{
     font-size: 2.05em;
@@ -104,6 +125,10 @@ linksdanavbar:last-child{
    height: 360px; 
    text-align: center;
    font-display:flex;
+   float: left;
+   width: 100%;
+   display: flex;
+   justify-content: 
      
 
 }
@@ -116,44 +141,56 @@ linksdanavbar:last-child{
     /*font-family: "Candara";*/
     font-size:2em;
     color: white;
-    
-    
-
-
-    border:solid white;
+    display: flex;
+    flex-direction: column;
+     margin-top: 3%;
+    /* border:solid white;*/
 
 }
 .textocontato{
     /*font-family: "Candara";*/
     font-size:2em;
     color:#5dd9c0;
-    
-    
-   
-
-    border: solid #5dd9c0;
+    display: flex;
+    flex-direction: column;
+    /*margin-top:0% ;*/
+    /*border: solid #5dd9c0;*/
 }
 .numerocontato{
     /*font-family:"Candara";*/
     font-size:2em;
     color:#cec075;
-   
+    display: flex;
+    flex-direction: column;
+    /*margin-top:1%;*/
+   /* border: solid #cec075;*/
+}
+.botaocontato{
 
-    border: solid #cec075;
-
+   /* background-color: #5dd9c0;
+    border-radius: 15px;
+    padding: 0.9%;
+    padding-left: 4%;
+    margin-top: 2%;
+    font-size: 1.6em;
+    font-weight: lighter;
+    font-family: "Candara";
+    color: white;*/
 
 }
 .rodape{
-    color:black; 
+    color:white; 
+    box-sizing: border-box;
+    text-align: center;
+    
 
 
 }
 .cordorodape{
     width: 100%;
-    height:5em;
-    margin-bottom:0px ;
-    margin-top:0px ;
-    padding-top: 0px;
+    height:2em;
+   bottom: 0;
+   left: 0;
     position: fixed;
     background-color: rgb(30, 32, 53);
 
