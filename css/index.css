@@ -95,12 +95,28 @@ linksdanavbar:last-child{
     margin: 1.2em;
     color: #4a4a4b;
 
-
-
-
+}
+.infodecontato{
+   background-image: url("../guiaimagens/serv.jpg");
+    background-position: center;
+    height: 360px; 
+     
 
 }
+.corinfobackground{
+  
+    width: 100%;
+    height: 360px;
+    background-color: rgba(30,33,54,0.9);
 
+}
+.titulocontato{
+
+}
+.textocontato{
+
+}
+.
 
 
 
