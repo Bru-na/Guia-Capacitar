@@ -1,5 +1,4 @@
 .navbar{
-   
     width: 100%;
     height: 5em ;
     margin-bottom:0px ;
@@ -13,8 +12,7 @@
 a{
     font-family:"candara";
     text-decoration: none;
-    /*font-weight: :lighter;*/
-    
+    /*font-weight: :lighter;*/ 
 }
 .logo{
     margin-top: -11px;
@@ -24,8 +22,7 @@ a{
     float: left;
 }
 linksdanavbar:last-child{
-    border: solid rebeccapurple;
-     
+    border: solid rebeccapurple;    
 }
 
 .botao{
@@ -71,15 +68,12 @@ linksdanavbar:last-child{
     display: flex;
     /*flex-direction: row;*/
     justify-content:space-around;
-    /*align-items: center;*/
-    
-    
+    /*align-items: center;*/ 
 }
 .cardsdeservico:hover{
     background-color: black;
 }
 .card{
-    
     background-color: white;
     border-style: solid;
     border-width: 1px;
@@ -93,20 +87,16 @@ linksdanavbar:last-child{
    /* border: solid #5dd9c0;*/
 }
 .card:hover{
-
     box-shadow: 5px 10px 20px #4a4a4b;
 }
-
 .titulodocard{
     font-size: 4em;
     font-family:"Candara";
     font-weight: lighter;
     text-align: center;
-    color: #4a4a4b;
-    
+    color: #4a4a4b;    
 }
 .titulodocard:hover{
-
     color: #5dd9c0;
     text-shadow: 1px 1px #4a4a4b;
 }
@@ -117,7 +107,6 @@ linksdanavbar:last-child{
     text-align: center;
     margin: 1.2em;
     color: #4a4a4b;
-
 }
 .infodecontato{
    background-image: url("../guiaimagens/serv.jpg");
@@ -178,13 +167,41 @@ linksdanavbar:last-child{
     color: white;*/
 
 }
+.descricaodovideo{   
+ color: #4a4a4b;
+ float: left;
+ margin-left: 7.8%;
+ margin-top: 5.5%;
+ margin-bottom: 8%; 
+}
+.titulodovideo{
+
+
+}
+.textodovideo{
+    font-size: 1.1em;
+    float: left;
+
+   
+    margin-top: 1.5%;
+
+}
+.video{
+    float: right;
+    width: 35%;
+    height: 300px;
+    margin-right: 3%;
+    margin-top: 5%;
+}
+
+
+
+
+
 .rodape{
     color:white; 
     box-sizing: border-box;
     text-align: center;
-    
-
-
 }
 .cordorodape{
     width: 100%;
@@ -193,12 +210,7 @@ linksdanavbar:last-child{
    left: 0;
     position: fixed;
     background-color: rgb(30, 32, 53);
-
 }
-
-
-
-
 body{
     margin: 0px;
 }
@@ -206,6 +218,5 @@ body{
 li{
     list-style-type: none;
     float: unset;
-
 }
 
